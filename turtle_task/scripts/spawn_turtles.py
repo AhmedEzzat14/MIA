@@ -2,6 +2,11 @@
 
 import rospy
 from turtlesim.srv import Spawn
+import pygame 
+
+pygame.mixer.init()
+pygame.mixer.music.load('sound.mp3')  
+pygame.mixer.music.play(-1) 
 
 def spawn_turtle(x, y, theta, name):
     rospy.wait_for_service('/spawn')
