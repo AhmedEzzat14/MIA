@@ -8,14 +8,14 @@ def key_callback(msg: Int8):
     twist = Twist()
     rospy.loginfo(f"Key received: {msg.data}")
     
-    if msg.data == 115:  # S down
+    if ((msg.data == 115) | (msg.data == 83)): # S down
         twist.linear.x = -1.0
-    elif msg.data == 119:  # W up
+    elif ((msg.data == 119) | (msg.data == 87)): # W up
         twist.linear.x = 1.0
-    elif msg.data == 97:  # A Left
+    elif ((msg.data == 65) | (msg.data == 97)): # A Left
         twist.angular.z = 1.0
         twist.linear.x = 1.0
-    elif msg.data == 100:  # D Right
+    elif ((msg.data == 68) | (msg.data == 100)): # D Right
         twist.angular.z = -1.0
         twist.linear.x = 1.0
     else:
