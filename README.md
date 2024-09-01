@@ -144,7 +144,7 @@ rqt_multiplot.
 * ``` chmod +x yaw_kalman_filter.py```
 * Write the code : you will find it in the package
 
-14. Visualize the filtered data after Kalman filter and the noisy data on
+### 14. Visualize the filtered data after Kalman filter and the noisy data on
 rqt_multiplot 
   * open multiplot ```rosrun rqt_multiplot rqt_multiplot```
   * configure new plot for the filterd yaw y-axis /filterd_yaw , x-axis (message receipt time) 
