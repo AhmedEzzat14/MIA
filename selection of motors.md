@@ -130,7 +130,7 @@ Shooting and passing require motors with high initial torque and speed to impart
     - **Use Case**: Best for applications needing detailed, step-by-step control of the dribbling mechanism.
     - **type** : **NEMA 17 stepper motor**
     
-                                ****
+                          
     
     ![stepper.jpg](stepper.jpg)
     
