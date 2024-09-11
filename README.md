@@ -1,6 +1,7 @@
 # TASK12.1- Positional Control:
 ## Aim:
   1-TurtleBot PID positional control using gazebo
+  
   2-Demonstrate how this can be extended to a Shato robot & simulating its control model in a similar environment
   
 ## process
